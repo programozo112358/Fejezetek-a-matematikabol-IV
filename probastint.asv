@@ -1,0 +1,8 @@
+n = 1000;m = 100;
+[w,t]=wiener(n,m);
+stint(w,w)
+plot(t,stint(w,w));
+hold on;
+plot()
+hold off;
+shg;
